@@ -1,0 +1,95 @@
+@media (width > 768px){
+    .container{
+        width: 768px;
+        overflow: hidden;
+    }
+
+
+    header{
+        gap: 460px;
+    }
+
+    .biggestBox{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bigbox1{
+        overflow: hidden;
+        position: relative;
+    }
+    .our{
+        width: 398px;
+    }
+    .photoDiv{
+        overflow: hidden;
+    }
+    .woman{
+        border-radius: 50px;
+        margin-top: 50px;
+    }
+    .bigbox1{
+      margin-left: 20px;
+    }
+    .button2{
+        margin-top: 40px;
+        margin-right: 40px ;
+    }
+
+    .photoDiv{  
+        overflow: visible;
+        right: -35px;
+        width: 216px;
+        height: 382px;
+        border-radius: 158.5px;
+    }
+
+    .woman{
+        position: relative;
+        right: 20px;
+        width: 250px;
+        height: 250px;
+        z-index: 1;
+    }
+    
+    .whiteBox1{
+        position: relative;
+        top: 165px;
+        right: 75px;
+    }
+    .whiteBox2{
+        position: relative;
+        left: -35px;
+    }
+    .none{
+        width: 225px;
+        height: 600px;
+        background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        margin-left: 740px;
+        margin-top: -160px;
+    }
+
+    .mainGrid{
+        margin-top: 70px;
+        grid-template-rows: auto auto auto;
+        column-gap: 20px;
+        grid-template-columns: auto auto;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        width: 768px;
+        gap: 460px;
+    }
+
+    .grid1{
+     width: 339px;
+    height: 259px;
+    }
+}
